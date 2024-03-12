@@ -70,3 +70,84 @@ Ans:The useEffect hook in React is used for side effects in
 functional components, such as data fetching,
 subscriptions, or manually changing the DOM.
 ```
+
+```
+Q 11. What are controlled components in React?
+Ans:Controlled components are components where the
+form data is controlled by React state. The input
+elements receive their current value from the state
+and have their value updated through a callback
+function.
+```
+
+```
+Q 12. What is Redux, and why is it used?
+Ans:Redux is a state management library for JavaScript
+applications, commonly used with React. It helps
+manage the state of an application in a predictable
+way.
+```
+
+```
+Q 13. Explain the concept of higher-order
+components (HOC).
+Ans:Higher-order components are functions that take a
+component and return a new component with
+additional features or props.
+```
+
+```
+Q 14. What is the purpose of the useReducer hook?
+Ans:The useReducer hook is used for managing complex
+state logic in React applications. It is an alternative
+to useState when state transitions are more
+complex.
+```
+
+```
+Q 15. What is the significance of the key attribute
+in React lists?
+Ans:The key attribute is used to uniquely identify
+elements in a list. It helps React efficiently update
+the DOM when the list changes.
+```
+
+
+```
+Q 16. What is the difference between class
+components and functional components?
+Ans:class components use ES6 classes and have
+additional features like state and lifecycle methods,
+while functional components are simpler and are
+often used with hooks.
+```
+
+````
+Q 17. Explain the concept of refs in React.
+Ans:Refs are used to access the DOM directly or to
+reference a React element. They provide a way to
+interact with the underlying DOM nodes in React.
+```
+
+```
+Q 18. What are React hooks?
+Ans:React hooks are functions that allow functional
+components to use state, lifecycle methods, and
+other React features.
+```
+
+```
+Q 19. Explain the purpose of the useContext
+hook.
+Ans:The useContext hook is used to access the value of a
+React context within a functional component.
+```
+
+```
+Q 20. What is the significance of the
+dangerouslySetInnerHTML property in React?
+Ans:dangerouslySetInnerHTML is used to inject HTML
+directly into a component, but it should be used with
+caution to avoid cross-site scripting (XSS)
+vulnerabilities.
+```
