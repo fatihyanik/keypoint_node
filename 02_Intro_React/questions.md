@@ -151,3 +151,87 @@ directly into a component, but it should be used with
 caution to avoid cross-site scripting (XSS)
 vulnerabilities.
 ```
+
+```
+Q 21. What is the purpose of the
+componentDidMount lifecycle method?
+Ans:componentDidMount is invoked immediately after a
+component is mounted, making it suitable for initial
+AJAX requests or setting up subscriptions.
+```
+
+
+```
+Q 22. What is the React developer tool?
+Ans:The React Developer Tools is a browser extension
+that allows developers to inspect and debug React
+component hierarchies in the Chrome and Firefox
+browsers.
+```
+
+```
+Q 23. Explain the concept of context in React.
+Ans:Context provides a way to pass data through the
+component tree without having to pass props
+manually at every level. It is often used to share
+values like themes or authentication status.
+```
+
+```
+Q 24. What are the advantages of using React?
+Ans:React offers a virtual DOM for improved
+performance, a component-based architecture for
+modular development, and a strong community
+support, among other advantages.
+```
+
+```
+Q 25. How does React handle prop drilling, and
+how can it be avoided?
+Ans:Prop drilling occurs when props are passed down
+through multiple levels of components. It can be
+avoided by using context or state management
+libraries like Redux.
+```
+
+```
+Q 26. What is the purpose of the
+shouldComponentUpdate method?
+Ans:shouldComponentUpdate is a lifecycle method that
+determines if a component should re-render.
+Developers can use it to optimize performance by
+preventing unnecessary renders.
+```
+
+```
+Q 27. Explain the significance of React Fragments.
+Ans:React Fragments allow developers to group multiple
+elements without adding an extra node to the DOM,
+helping to keep the structure clean.
+```
+
+````
+Q 28. What is the significance of the key prop in
+React Router?
+Ans:The key prop in React Router is used to force the
+remounting of a component when the key changes,
+ensuring that the component is fully reinitialized.
+```
+
+````
+Q 29. What is the purpose of the forwardRef
+function in React?
+Ans:forwardRef is used to forward refs through
+components, allowing parent components to
+interact with the child's DOM node.
+```
+
+
+```
+Q 30. What is the purpose of the forwardRef
+function in React?
+Ans:Error boundaries are components that catch
+JavaScript errors anywhere in their child component
+tree and log those errors, display a fallback UI, or
+take other actions.
+```
