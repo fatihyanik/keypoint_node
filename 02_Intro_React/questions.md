@@ -57,7 +57,7 @@ Ans:setState is used to update the state of a component
 and trigger a re-render.
 ```
 
-``
+```
 Q 9. What is React Router?
 Ans:React Router is a library that enables navigation
 among views in a React application, allowing for the
@@ -122,7 +122,7 @@ while functional components are simpler and are
 often used with hooks.
 ```
 
-````
+```
 Q 17. Explain the concept of refs in React.
 Ans:Refs are used to access the DOM directly or to
 reference a React element. They provide a way to
@@ -210,7 +210,7 @@ elements without adding an extra node to the DOM,
 helping to keep the structure clean.
 ```
 
-````
+```
 Q 28. What is the significance of the key prop in
 React Router?
 Ans:The key prop in React Router is used to force the
@@ -218,7 +218,7 @@ remounting of a component when the key changes,
 ensuring that the component is fully reinitialized.
 ```
 
-````
+```
 Q 29. What is the purpose of the forwardRef
 function in React?
 Ans:forwardRef is used to forward refs through
@@ -234,4 +234,83 @@ Ans:Error boundaries are components that catch
 JavaScript errors anywhere in their child component
 tree and log those errors, display a fallback UI, or
 take other actions.
+```
+
+```
+Q 31. What is the significance of the memo
+function in React?
+Ans:memo is a higher-order component that memoizes
+the rendering of a functional component, preventing
+unnecessary re-renders if the props have not
+changed.
+```
+
+```
+Q 32. How does React handle forms?
+Ans:React handles forms by using controlled
+components, where form data is controlled by the
+React state.
+```
+
+```
+Q 33. Explain the purpose of the useMemo hook.
+Ans:The useMemo hook is used to memoize the result of
+a function, preventing unnecessary calculations and
+improving performance.
+```
+
+```
+Q 34. What is the significance of the useCallback
+hook?
+Ans:useCallback is used to memoize callback functions,
+preventing them from being recreated on every
+render.
+```
+
+```
+Q 35. What are React portals?
+Ans:React portals provide a way to render children into a
+DOM node that exists outside the parent
+component's hierarchy.
+```
+
+```
+Q 36. Explain the concept of suspense in React.
+Ans:Suspense is a feature in React that allows
+components to "wait" for something before
+rendering, such as data fetching or code splitting.
+```
+
+```
+Q 37. What is the purpose of the useEffect
+cleanup function?
+Ans:The cleanup function in useEffect is used to perform
+cleanup tasks, such as unsubscribing from
+subscriptions or clearing intervals, when a
+component is unmounted.
+```
+
+```
+Q 38. How does React handle routing?
+Ans:React can handle routing using the React Router
+library, which provides a way to navigate between
+different views or pages in a React application.
+
+```
+
+```
+Q 39. What is the purpose of the useLayoutEffect
+hook?
+Ans:useLayoutEffect is similar to useEffect, but it fires
+synchronously after all DOM mutations. It is often
+used for measuring and synchronizing layout.
+
+```
+
+```
+Q 40. Explain the concept of lazy loading in React.
+Ans:Lazy loading is a technique where components or
+modules are loaded only when they are actually
+needed, improving initial load times.
+
 ```
