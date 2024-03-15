@@ -314,3 +314,84 @@ modules are loaded only when they are actually
 needed, improving initial load times.
 
 ```
+
+```
+Q 41. What is the significance of the React.memo
+function?
+Ans:React.memo is a higher-order component that
+memoizes the rendering of a functional component,
+preventing unnecessary re-renders if the props have
+not changed.
+```
+
+```
+Q 42. How does React handle code splitting?
+Ans:React supports code splitting, allowing developers to
+split their code into smaller chunks that are loaded
+on demand, improving performance by reducing the
+initial bundle size.
+```
+
+```
+Q 43. What is the purpose of the
+useImperativeHandle hook?
+Ans:useImperativeHandle is used to customize the
+instance value that is exposed when using
+React.forwardRef.
+```
+
+```
+Q 44. Explain the concept of the useDebugValue
+hook.
+Ans:useDebugValue is used to display a label for custom
+hooks in React DevTools.
+```
+
+```
+Q 45. What is the purpose of the useState hook?
+Ans:The useState hook is used to add state to functional
+components in React.
+```
+
+```
+Q 46.Explain the significance of the SuspenseList
+component in React.
+Ans:SuspenseList is a component that allows developers
+to coordinate the loading of multiple components in
+a way that provides a better user experience.
+```
+
+```
+Q 47. What is the significance of the react-scripts
+package in a React application?
+Ans:react-scripts is a set of scripts and configurations
+used by Create React App to set up and manage a
+React project without the need for complex
+configuration.
+```
+
+```
+Q 48. Explain the concept of error boundaries in
+React.
+Ans:Error boundaries are components that catch
+JavaScript errors anywhere in their child component
+tree and log those errors, display a fallback UI, or
+take other actions.
+```
+
+```
+Q 49. What is the purpose of the useReducer hook?
+Ans:useReducer is a hook in React used for state
+management in functional components. It is
+particularly useful when the state logic is complex
+and involves multiple sub-values or when the next
+state depends on the previous state.
+```
+
+```
+Q 50. How does React handle forms?
+Ans:React handles forms using controlled components,
+where the form elements are controlled by React
+state. This allows React to be the single source of
+truth for the form data.
+```
